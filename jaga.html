@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input with Dropdown</title>
+    <link rel="stylesheet" href="./jaga.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="now">
+        <img class="move" src="./LS.png" alt="" srcset="" />
+        <h2>
+          Laptop <br />
+          Harbor
+        </h2>
+      </div>
+      <div>
+        <img src="./GP.png" alt="" srcset="" />
+      </div>
+    </header>
+
+    <div class="never">
+      Customize your laptop recommendations with your preferences
+    </div>
+
+    <div class="go">
+      <div class="overall-div-1">
+        <label for="">Purpose of buying</label><br />
+        <select id="purposeDropDown" class="custom-dropdown">
+          <option selected disabled hidden>Reason for buying</option>
+          <option value="Gaming">Gaming</option>
+          <option value="Coding">Coding</option>
+          <option value="Design">Design</option>
+          <option value="Others">Others</option>
+        </select>
+        <br />
+
+        <label for="">Name of product</label><br />
+        <select id="nameDropDown" class="custom-dropdown">
+          <option selected disabled hidden>Select an option</option>
+          <option value="Apple">Apple</option>
+          <option value="Dell">Dell</option>
+          <option value="Hp">Hp</option>
+          <option value="Acer">Acer</option>
+        </select>
+        <br />
+
+        <label for="">Processor type</label><br />
+        <select id="typeDropDown" class="custom-dropdown">
+          <option selected disabled hidden>Slect an option</option>
+          <option value="Intel">Intel</option>
+          <option value="AMD">AMD</option>
+          <option value="Apple">Apple</option>
+        </select>
+
+        <br />
+
+        <label for="">Processor speed</label><br />
+        <select id="speedDropDown" class="custom-dropdown">
+          <option selected disabled hidden>Select an option</option>
+          <option value="1.0-2.0 GHz">1.0-2.0 GHz</option>
+          <option value="2.0-3.0 GHz">2.0-3.0 GHz</option>
+          <option value="3.0-4.0 GHz">3.0-4.0 GHz</option>
+        </select>
+      </div>
+
+      <div class="overall-div-2">
+        <label for="">RAM</label><br />
+        <select id="ramDropDown" class="custom-dropdown">
+          <option selected disabled hidden>Select an option</option>
+          <option value="4GB">4GB</option>
+          <option value="6GB">6GB</option>
+          <option value="8GB">8GB</option>
+          <option value="16GB">16GB</option>
+          <option value="32GB">32GB</option>
+        </select>
+
+        <br />
+
+        <label for="">Memory type</label><br />
+        <select id="memoryDropDown" class="custom-dropdown">
+          <option selected disabled hidden>Select an option</option>
+          <option value="500GB HDD">500GB HDD</option>
+          <option value="1TB HDD">1TB HDD</option>
+          <option value="500GB SSD">500GB SSD</option>
+          <option value="1TB SSD">1TB SSD</option>
+        </select>
+
+        <br />
+
+        <label for="">Graphics card</label><br />
+        <select id="graphicsDropDown" class="custom-dropdown">
+          <option selected disabled hidden>Select an option</option>
+          <option value="Nvidia">Nvidia</option>
+          <option value="Apple">Apple</option>
+          <option value="Intel">Intel</option>
+          <option value="AMD">AMD</option>
+        </select>
+
+        <br />
+
+        <label for="">Budget</label><br />
+        <select id="budgetDropDown" class="custom-dropdown">
+          <option selected disabled hidden>Select an option</option>
+          <option value="100k-200k">100k-200k</option>
+          <option value="200k-300k">200k-300k</option>
+          <option value="300k-400k">300k-400k</option>
+        </select>
+      </div>
+    </div>
+    <div class="tomi">
+      <button id="rec-btn" class="rec-btn">Get Recommendation</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="new.css" />
+    <!-- <link rel="stylesheet" href="jaga.css" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="padding-left: 10%; padding-right: 10%">
+    <header style="display: flex; justify-content: space-between; align-items: center;">
+      <div class="now">
+        <img class="move" src="./LS.png" alt="" srcset="" />
+        <h2>
+          Laptop <br />
+          Harbor
+        </h2>
+      </div>
+      <div>
+        <img src="./GP.png" alt="" srcset="" />
+      </div>
+    </header>
+    <h1 style="text-align: center; margin-top: 90px;" id="err"></h1>
+    <div id="con">
+
+      <div class="" style="padding-top: 10px">
+        <p style="text-align: center; font-weight: bold; font-size: 25px">
+          Your Personalized Laptop Recommendations Are Here!
+        </p>
+        <p style="text-align: center; font-size: 19px; margin-top: -15px">
+          Explore our top picks tailored to your preferences.
+        </p>
+      </div>
+     
+      <div
+        class="flex"
+        style="
+          margin-top: 70px;
+          /* align-items: center; */
+          justify-content: space-between;
+          gap: 20px;
+        "
+      >
+        <div class="spec-box">
+          <div class="flex">
+            <div class="" style="width: 30%">
+              <p
+                style="
+                  border-bottom: 2px gray solid;
+                  padding-left: 15px;
+                  padding-bottom: 9px;
+                  padding-top: 10px;
+  
+                  font-size: 19px;
+                  margin-top: -2px;
+                "
+              >
+                Input Fields
+              </p>
+            </div>
+            <div class="" style="width: 70%">
+              <p
+                style="
+                  border-bottom: 2px gray solid;
+                  border-left: 2px gray solid;
+                  border-bottom: 2px gray solid;
+                  padding-left: 15px;
+                  padding-bottom: 9px;
+                  font-size: 19px;
+                  padding-top: 10px;
+                  margin-top: -2px;
+                "
+              >
+                Recommendations
+              </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="" style="width: 30%">
+              <p
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 9px;
+                  padding-top: 10px;
+                  font-weight: bold;
+                  font-size: 17px;
+                  margin-top: -19px;
+                "
+              >
+                Name Of Product
+              </p>
+            </div>
+            <div class="" style="width: 70%">
+              <p
+                id="sys-name"
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  border-left: 2px gray solid;
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 10px;
+                  font-size: 17px;
+                  padding-top: 11px;
+                  font-weight: bold;
+                  margin-top: -19px;
+                "
+              >
+             <h1 id="sys-name"></h1>
+            </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="" style="width: 30%">
+              <p
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 9px;
+                  padding-top: 10px;
+                  font-weight: bold;
+                  font-size: 17px;
+                  margin-top: -19px;
+                "
+              >
+                Processor type
+              </p>
+            </div>
+            <div class="" style="width: 70%">
+              <p
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  border-left: 2px gray solid;
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 10px;
+                  font-size: 17px;
+                  padding-top: 11px;
+                  font-weight: bold;
+                  margin-top: -19px;
+                "
+              >
+            <span
+                id="sys-pro"
+            
+            ></span></p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="" style="width: 30%">
+              <p
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 9px;
+                  padding-top: 10px;
+                  font-weight: bold;
+                  font-size: 17px;
+                  margin-top: -19px;
+                "
+              >
+                Processor speed
+              </p>
+            </div>
+            <div class="" style="width: 70%">
+              <p
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  border-left: 2px gray solid;
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 10px;
+                  font-size: 17px;
+                  padding-top: 11px;
+                  font-weight: bold;
+                  margin-top: -19px;
+                "
+              >
+            <span 
+                id="sys-speed"
+            
+            ></span>
+            </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="" style="width: 30%">
+              <p
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 9px;
+                  padding-top: 10px;
+                  font-weight: bold;
+                  font-size: 17px;
+                  margin-top: -19px;
+                "
+              >
+                RAM
+              </p>
+            </div>
+            <div class="" style="width: 70%">
+              <p
+                id="sys-ram"
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  border-left: 2px gray solid;
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 10px;
+                  font-size: 17px;
+                  padding-top: 11px;
+                  font-weight: bold;
+                  margin-top: -19px;
+                "
+              >
+      <h2 id="sys-ram"></h2>
+            
+            </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="" style="width: 30%">
+              <p
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 9px;
+                  padding-top: 10px;
+                  font-weight: bold;
+                  font-size: 17px;
+                  margin-top: -19px;
+                "
+              >
+                Memory
+              </p>
+            </div>
+            <div class="" style="width: 70%">
+              <p
+                id="sys-memory"
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  border-left: 2px gray solid;
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 10px;
+                  font-size: 17px;
+                  padding-top: 11px;
+                  font-weight: bold;
+                  margin-top: -19px;
+                "
+              ></p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="" style="width: 30%">
+              <p
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 9px;
+                  padding-top: 10px;
+                  font-weight: bold;
+                  font-size: 17px;
+                  margin-top: -19px;
+                "
+              >
+                Graphics card
+              </p>
+            </div>
+            <div class="" style="width: 70%">
+              <p
+              
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  border-left: 2px gray solid;
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 10px;
+                  font-size: 17px;
+                  padding-top: 11px;
+                  font-weight: bold;
+                  margin-top: -19px;
+                "
+              >
+            <span 
+                id="sys-graphics"
+            
+            ></span>
+            </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="" style="width: 30%">
+              <p
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 9px;
+                  padding-top: 10px;
+                  font-weight: bold;
+                  font-size: 17px;
+                  margin-top: -19px;
+                "
+              >
+                prize
+              </p>
+            </div>
+            <div class="" style="width: 70%">
+              <p
+                id="sys-prize"
+                style="
+                  /* border-bottom: 2px gray solid; */
+                  border-left: 2px gray solid;
+                  /* border-bottom: 2px gray solid; */
+                  padding-left: 15px;
+                  padding-bottom: 10px;
+                  font-size: 17px;
+                  padding-top: 11px;
+                  font-weight: bold;
+                  margin-top: -19px;
+                "
+              ></p>
+            </div>
+          </div>
+        </div>
+        <div class="" style="height: 400px; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+        
+          <img src="" style="width: 600px;" id="result-img" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="" style="display: flex; margin-top: 40px; justify-content: center;">
+      <a href="/jaga.html">
+
+        <button class="expl-btn">Explore Again</button>
+      </a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

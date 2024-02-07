@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding-bottom: 200px;
+}
+
+header {
+  padding-left: 53px;
+  padding-right: 32px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.never {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+  align-content: center;
+
+  padding-left: 400px;
+}
+.now {
+  display: flex;
+}
+.now h2 {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.custom-dropdown {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60px;
+  width: 485px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.go {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  column-gap: 60px;
+
+  width: 100%;
+}
+
+.overall-div-1 label,
+.overall-div-2 label {
+  font-size: 20px;
+  font-weight: 700;
+}
+button {
+  width: 378px;
+  height: 69px;
+  color: #fff;
+  background: #1e053d;
+  /* display: inline-flex; */
+  font-size: 24px;
+  padding: 20px;
+  font-weight: 700px;
+  margin-top: 20px;
+  /* align-items: center; */
+  margin-left: 451.5px;
+  margin-right: 450.5;
+  border-radius: 20px;
+  border: none;
+}

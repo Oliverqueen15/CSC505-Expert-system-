@@ -1,0 +1,33 @@
+.custom-dropdown {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+}
+
+.custom-dropdown option:first-child {
+  display: none;
+}
+.flex {
+  display: flex;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spec-box {
+  width: 60%;
+  height: 342px;
+  /* background-color: red; */
+  border: 2px gray solid;
+}
+.expl-btn {
+  height: 45px;
+  border: none;
+  color: white;
+  width: 120px;
+  background-color: #1e053d;
+  font-weight: bold;
+  border-radius: 6px;
+}
